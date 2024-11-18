@@ -3,52 +3,103 @@
 <head>  
     <meta charset="UTF-8">  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <title>Listas en HTML</title>  
+    <title>Página Sencilla con Listas y Tablas</title>  
+    <style>  
+        body {  
+            font-family: Arial, sans-serif;  
+            margin: 20px;  
+        }  
+        h2 {  
+            color: #333;  
+        }  
+        ul, ol {  
+            margin: 10px 0;  
+        }  
+        table {  
+            width: 100%;  
+            border-collapse: collapse;  
+            margin: 20px 0;  
+        }  
+        th, td {  
+            border: 1px solid #888;  
+            padding: 10px;  
+            text-align: left;  
+        }  
+        th {  
+            background-color: #f2f2f2;  
+        }  
+    </style>  
 </head>  
 <body>  
 
-    <h2>Lista Desordenada</h2>  
+    <h2>Listas</h2>  
+
+    <h3>Lista Desordenada</h3>  
     <ul>  
-        <li>Manzanas</li>  
-        <li>Plátanos</li>  
-        <li>Fresas</li>  
-        <li>Naranjas</li>  
-        <li>Kiwi</li>  
+        <li>PAPA</li>  
+        <li>YUCA</li>  
+        <li>PLATANO</li>  
+        <li>CEREZO</li>  
+        <li>ARROZ</li>  
     </ul>  
 
-    <h2>Lista Ordenada</h2>  
+    <h3>Lista Ordenada</h3>  
     <ol>  
-        <li>Primero</li>  
-        <li>Segundo</li>  
-        <li>Tercero</li>  
-        <li>Cuarto</li>  
-        <li>Quinto</li>  
+        <li>UNO</li>  
+        <li>DOS</li>  
+        <li>TRES</li>  
+        <li>CUATRO</li>  
+        <li>CINCO</li>  
     </ol>  
 
-    <h2>Lista Anidada</h2>  
+    <h3>Lista Anidada</h3>  
     <ul>  
-        <li>Frutas  
+        <li>Categoría A  
             <ul>  
-                <li>Manzanas</li>  
-                <li>Plátanos</li>  
-                <li>Fresas</li>  
+                <li>PRIMERO</li>  
+                <li>SEGUNDO</li>  
             </ul>  
         </li>  
-        <li>Verduras  
+        <li>Categoría B  
             <ul>  
-                <li>Zanahorias</li>  
-                <li>Brócoli</li>  
-                <li>Espinacas</li>  
-            </ul>  
-        </li>  
-        <li>Cereales  
-            <ul>  
-                <li>Arroz</li>  
-                <li>Trigo</li>  
-                <li>Avena</li>  
+                <li>TERCERO</li>  
+                <li>CUARTO</li>  
             </ul>  
         </li>  
     </ul>  
 
+    <h2>Tabla Simple</h2>  
+    <table border="1" cellspacing="0" cellpadding="10">  
+        <thead>  
+            <tr>  
+                <th>Nombre</th>  
+                <th>Edad</th>  
+                <th>Ciudad</th>  
+            </tr>  
+        </thead>  
+        <tbody>  
+            <tr>  
+                <td>Alice</td>  
+                <td>30</td>  
+                <td>Madrid</td>  
+            </tr>  
+            <tr>  
+                <td>Bob</td>  
+                <td>25</td>  
+                <td>Barcelona</td>  
+            </tr>  
+            <tr>  
+                <td>Charlie</td>  
+                <td>35</td>  
+                <td>Valencia</td>  
+            </tr>  
+            <tr>  
+                <td>David</td>  
+                <td>28</td>  
+                <td>Sevilla</td>  
+            </tr>  
+        </tbody>  
+    </table>  
+
 </body>  
-</html>  
+</html>
